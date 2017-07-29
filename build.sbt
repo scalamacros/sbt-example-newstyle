@@ -1,5 +1,5 @@
-lazy val ScalaVersion = "2.12.2"
-lazy val ScalamacrosVersion = "2.0.0-94-f03bbf3a"
+lazy val ScalaVersion = "2.12.3"
+lazy val ScalamacrosVersion = "2.0.0-96-9f738df2"
 
 lazy val newMacroSettings: Seq[Def.Setting[_]] = Seq(
   scalaVersion := ScalaVersion,
